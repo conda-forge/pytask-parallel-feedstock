@@ -1,5 +1,5 @@
 {% set name = "pytask-parallel" %}
-{% set version = "0.0.8" %}
+{% set version = "0.1.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask-parallel-{{ version }}.tar.gz
-  sha256: 1b0ac00f9d6bf26a93cb5442c89c3c9e25a5ef8a2d58e34619dff64717eb2466
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_parallel-{{ version }}.tar.gz
+  sha256: 9304b5760f1ed2cc626e19e7f9f97a968ec5c87561b3395ff2788a11760b3ab3
 
 build:
   number: 0
@@ -34,12 +34,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/pytask-dev/pytask-latex
+  home: https://github.com/pytask-dev/pytask-parallel
   summary: Parallelize the execution of pytask.
   license: MIT
   license_file: LICENSE
-  dev_url: https://github.com/pytask-dev/pytask-latex
-  doc_url: https://github.com/pytask-dev/pytask-latex
+  dev_url: https://github.com/pytask-dev/pytask-parallel
+  doc_url: https://github.com/pytask-dev/pytask-parallel
 
 extra:
   recipe-maintainers:
