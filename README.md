@@ -1,7 +1,7 @@
 About pytask-parallel
 =====================
 
-Home: https://github.com/pytask-dev/pytask-latex
+Home: https://github.com/pytask-dev/pytask-parallel
 
 Package license: MIT
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytask-parallel
 
 Summary: Parallelize the execution of pytask.
 
-Development: https://github.com/pytask-dev/pytask-latex
+Development: https://github.com/pytask-dev/pytask-parallel
 
-Documentation: https://github.com/pytask-dev/pytask-latex
+Documentation: https://github.com/pytask-dev/pytask-parallel
 
 Current build status
 ====================
@@ -40,6 +40,7 @@ Installing `pytask-parallel` from the `conda-forge` channel can be achieved by a
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `pytask-parallel` can be installed with:
