@@ -11,7 +11,7 @@ source:
   sha256: 9304b5760f1ed2cc626e19e7f9f97a968ec5c87561b3395ff2788a11760b3ab3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -19,6 +19,8 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools_scm
+    - toml
   run:
     - cloudpickle
     - loky
