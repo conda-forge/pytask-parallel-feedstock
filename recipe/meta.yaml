@@ -24,7 +24,7 @@ requirements:
   run:
     - cloudpickle
     - loky
-    - pytask >=0.1.7
+    - pytask >=0.2
     - python >=3.7
 
 test:
