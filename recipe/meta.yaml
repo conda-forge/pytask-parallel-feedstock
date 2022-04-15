@@ -1,5 +1,5 @@
 {% set name = "pytask-parallel" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_parallel-{{ version }}.tar.gz
-  sha256: f68d6383b9c69a91f79227ff893bb176a368402ee8616479d720f8807683b3a9
+  sha256: 30beda6460774255007f8f6fb14f73b121f1295adc4071e01b9bd6780a3f6628
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
   run:
     - cloudpickle
     - loky
-    - pytask >=0.1.7
+    - pytask >=0.2
     - python >=3.7
 
 test:
