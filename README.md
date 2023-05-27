@@ -1,11 +1,11 @@
-About pytask-parallel
-=====================
+About pytask-parallel-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytask-parallel-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pytask-dev/pytask-parallel
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytask-parallel-feedstock/blob/main/LICENSE.txt)
 
 Summary: Parallelize the execution of pytask.
 
