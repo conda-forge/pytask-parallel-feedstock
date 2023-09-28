@@ -1,5 +1,5 @@
 {% set name = "pytask-parallel" %}
-{% set version = "v0.4.0rc1" %}
+{% set version = "0.4.0rc1" %}
 
 
 package:
