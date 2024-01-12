@@ -1,5 +1,5 @@
 {% set name = "pytask-parallel" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_parallel-{{ version }}.tar.gz
-  sha256: 0a56c712211744ed2ca45242ef5757c385faafcbd00e4eb35308b161a19ecaef
+  sha256: fea10f527dd53f64dcaf80b142f56ac0dee16bf0bf1e0e9a7e945e866d29d8bf
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - cloudpickle
     - loky
     - pluggy >=1.0.0
-    - pytask >=0.4.0
+    - pytask >=0.4.5
     - python >=3.8
     - rich
 
