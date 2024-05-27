@@ -19,15 +19,15 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - setuptools_scm
-    - toml
+    - hatchling
+    - hatch-vcs
   run:
     - attrs >=21.3.0
     - click
     - cloudpickle
     - loky
     - pluggy >=1.0.0
-    - pytask >=0.4.5
+    - pytask >=0.5.0
     - python >=3.8
     - rich
 
@@ -45,7 +45,7 @@ about:
   license: MIT
   license_file: LICENSE
   dev_url: https://github.com/pytask-dev/pytask-parallel
-  doc_url: https://github.com/pytask-dev/pytask-parallel
+  doc_url: https://pytask-parallel.readthedocs.io/
 
 extra:
   recipe-maintainers:
