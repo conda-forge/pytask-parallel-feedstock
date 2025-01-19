@@ -11,7 +11,7 @@ Summary: Parallelize the execution of pytask.
 
 Development: https://github.com/pytask-dev/pytask-parallel
 
-Documentation: https://github.com/pytask-dev/pytask-parallel
+Documentation: https://pytask-parallel.readthedocs.io/
 
 Current build status
 ====================
