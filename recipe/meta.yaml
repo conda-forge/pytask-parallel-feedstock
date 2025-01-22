@@ -1,5 +1,6 @@
 {% set name = "pytask-parallel" %}
 {% set version = "0.5.0" %}
+{% set python_min = "3.8" %}
 
 
 package:
@@ -7,18 +8,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_parallel-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytask_parallel-{{ version }}.tar.gz
   sha256: 9c58bdf2dbab3bbd51106d7bc43fbeac6d9d081ffe7e510d1f33f95df6d9c013
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - hatchling
     - hatch-vcs
   run:
@@ -28,7 +29,7 @@ requirements:
     - loky
     - pluggy >=1.0.0
     - pytask >=0.5.0
-    - python >=3.8
+    - python >={{ python_min }}
     - rich
 
 test:
@@ -38,6 +39,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/pytask-dev/pytask-parallel
