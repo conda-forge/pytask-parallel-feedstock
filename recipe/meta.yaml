@@ -1,5 +1,5 @@
 {% set name = "pytask-parallel" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set python_min = "3.8" %}
 
 
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytask_parallel-{{ version }}.tar.gz
-  sha256: 9c58bdf2dbab3bbd51106d7bc43fbeac6d9d081ffe7e510d1f33f95df6d9c013
+  sha256: cfc9e46cf9a27dcba3c34a03a65927fe209914c4b55580234791d6755da060af
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
